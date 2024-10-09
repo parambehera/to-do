@@ -45,6 +45,7 @@ function Todo() {
       <div className="Box">
         <Date_Time />
         <TodoForm onAddTodo={handleSumbitValue} />
+        
         <TodoList
           todos={todos}
           onDeleteTodo={handleDltBtn}
